@@ -123,7 +123,7 @@ get_target_build_options() {
             BUILD_OPTIONS+="-DPCB=X7 -DPCBREV=V14"
             ;;
         v16)
-            BUILD_OPTIONS+="-DPCB=X10 -DPCBREV=V16"
+            BUILD_OPTIONS+="-DPCB=X10 -DPCBREV=V16 -DTRANSLATIONS=CN"
             ;;
         nv14)
             BUILD_OPTIONS+="-DPCB=NV14"
