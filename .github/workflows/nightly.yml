@@ -32,7 +32,7 @@ jobs:
           FLAVOR: ${{ matrix.target }}
           EDGETX_VERSION_SUFFIX: nightly
           CMAKE_BUILD_PARALLEL_LEVEL: 4
-        run: ./tools/build-gh.sh
+        run: ./tools/build-multilang.sh
 
       - name: Package firmware ${{ matrix.target }}
         uses: actions/upload-artifact@v4
