@@ -33,7 +33,7 @@ jobs:
           EXTRA_OPTIONS: -DTRANSLATIONS=CN
           EDGETX_VERSION_SUFFIX: nightly
           CMAKE_BUILD_PARALLEL_LEVEL: 4
-        run: ./tools/build-multilang.sh
+        run: ./tools/build-gh.sh
 
       - name: Package firmware ${{ matrix.target }}
         uses: actions/upload-artifact@v4
